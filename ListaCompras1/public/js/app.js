@@ -13,17 +13,14 @@ function minhaLista(produto, quantidade){
         console.log("O produto é" + this.produto +"quantidade é" 
         +this.qtdInformada);
 
-    }
-}
-
+    };
+};
 
 //Funções
 function adicionarDados(){
     var qtdInformada = campoQtd.value;
     novaLista = new minhaLista(campoProduto.value, campoQtd.value);
     novaLista.criarTabela;
-  
-
 
 };
 function criarTabela(){
@@ -43,8 +40,5 @@ function criarTabela(){
 
 }
 
-
-
-
-//Rotinas Principal
+//Rotinas
 botaoAdicionar.addEventListener('click', addItem);
